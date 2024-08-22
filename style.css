@@ -1,0 +1,96 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3e3e3e;
+    height: 100vh;
+}
+.cardContainer{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    background-color: #22252f;
+    color: white;
+    border-radius: 5px;
+   
+}
+.star{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #292e37;
+}
+.text{
+    color: #8790a7;
+}
+.number{
+    display: flex;
+   gap: 20px;
+   justify-content: center;
+   margin-top: 40px;
+}
+
+.number div{
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    border-radius: 50%;
+    text-align: center;
+  
+}
+.numberOne{
+    background-color: #292e37;
+}
+.numberFour{
+    background-color: #808797;
+}
+.numberFive{
+    background-color: #dd7d33;
+}
+
+button{
+    width: 90%;
+    background-color: white;
+    color: #dd7d33;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.thankYouWrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    padding: 40px;
+    background-color: #22252f;
+    color: white;
+    border-radius: 5px;
+    display: none;
+
+}
+.thankYouWrapper img{
+    height: 100px;
+    width: 100px;
+}
+.thankYouWrapper span{
+    color: #dd7d33;
+    font-size: 1em;
+    background-color: #292e37;
+    border-radius:15px ;
+    padding: 10px;
+}
+
+.thankYouWrapper p{
+    color: #808797;
+    width: 70%;
+    text-align: center;
+}
