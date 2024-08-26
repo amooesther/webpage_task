@@ -38,6 +38,11 @@
     padding: 15px;
     border-radius: 50%;
     text-align: center;
+    cursor: pointer;
+  
+}
+.number div:hover{
+   background-color: #808797;
   
 }
 .numberOne{
